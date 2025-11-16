@@ -100,4 +100,4 @@ Each flow is completely automated using a **TestNG-based modular structure**.
 
 ### 1️⃣ Clone the repository  
 ```bash
-git clone <https://github.com/Shivshanker869/Hackathon-project>
+git clone https://github.com/Shivshanker869/Hackathon-project
