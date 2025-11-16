@@ -1,102 +1,103 @@
-# Demo Web Shop – End-to-End Testing (Hackathon Project)
+# 🛒 DemoWebShop Hackathon – Manual + Automation Testing Project
 
-This repository contains my end-to-end Manual + Automation Testing Hackathon Project for the application Demo Web Shop (https://demowebshop.tricentis.com/
-).
-The project validates critical user journeys and business workflows using Selenium (Java), TestNG, and Page Object Model (POM) along with detailed manual testing documentation.
+This repository contains my **Hackathon Project** for the  
+[Demo Web Shop](https://demowebshop.tricentis.com/) e-commerce application.  
+It includes **complete Manual Testing documentation** and a fully implemented **End-to-End Automation Framework** using **Selenium, Java, TestNG, and Page Object Model (POM)**.
+
+This project demonstrates real-world QA skills with both **manual validation** and **scalable automation scripting**, designed for industry-level test coverage.
+
 ---
-## 📌 Project Overview
 
-The goal of this Hackathon project was to test Demo Web Shop like a real QA engineer by performing:
+## 🚀 Project Overview
 
-Complete Manual Testing
+### 🔍 Manual Testing  
+- Complete functional testing of Demo Web Shop  
+- Test Plan, Test Scenarios, and Detailed Test Cases  
+- Bug Reporting with severity & priority  
+- Mind Map for test coverage  
+- Test Summary Report after execution  
 
-Complete Automation Testing (Selenium + Java + TestNG + POM)
+### 🤖 Automation Testing  
+- Built using **Selenium WebDriver + Java + TestNG**  
+- Framework designed with **Page Object Model (POM)**  
+- Full **End-to-End automation** of core e-commerce flows  
+- Includes validations, assertions, reusable utilities, and test data handling  
 
-End-to-End coverage of major features
-
-Bug reporting with detailed reproduction steps
-
-Professional testing documents usable in interviews & portfolios
 ---
-## 🔍 Manual Testing Coverage
-1. Test Plan
 
-A comprehensive Test Plan covering:
+## 🧩 Key Features
 
-Scope
+### 📝 Manual Testing
+- ✔ Detailed and well-structured QA documentation  
+- ✔ Realistic scenarios based on e-commerce behaviors  
+- ✔ Complete defect tracing with expected vs actual results  
+- ✔ Test execution summary with final status  
 
-Objectives
+### ⚙️ Automation Testing
+- ✔ Modular **POM** design for scalability  
+- ✔ Separate page classes, reusable methods & locators  
+- ✔ TestNG annotations (BeforeClass, BeforeMethod, AfterMethod)  
+- ✔ End-to-End flows: Login → Add to Cart → Checkout → Order Processing  
+- ✔ Cross-browser ready structure  
+- ✔ Screenshot capture for failures (optional)  
 
-Test Strategy
-
-Entry/Exit Criteria
-
-Roles & Responsibilities
-
-Risks & Mitigations
-
-2. Test Scenarios & Test Cases
-
-100% coverage of Login, Register, Search, Cart, Wishlist, Payment, Checkout
-
-Well-structured scenarios with:
-
-Test ID
-
-Steps
-
-Expected Result
-
-Priority
-
-Actual Result
-
-3. Bug Report
-
-30+ real, high-quality bugs
-
-Covered: Functional, UI, UX, Browser Compatibility, Validation
-
-Columns include: Bug ID, Summary, Severity, Priority, Steps, Expected, Actual, Screenshot
-
-4. Test Summary Report
-
-Test execution results
-
-Pass/Fail matrices
-
-Defect summary
-
-Final QA sign-off
 ---
-## 🤖 Automation Testing Coverage
 
-Automation is implemented using:
+## 📁 Project Folder Structure
 
-Selenium WebDriver (Java)
+```
+DemoWebShop_Hackathon/
+│
+├── Manual_Testing/
+│ ├── TestPlan.docx
+│ ├── TestScenarios_TestCases.xlsx
+│ ├── BugReport.xlsx
+│ ├── MindMap.png
+│ └── TestSummaryReport.docx
+│
+├── Automation/
+│ ├── src/
+│ │ ├── main/java/
+│ │ │ └── pages/
+│ │ │ ├── LoginPage.java
+│ │ │ ├── HomePage.java
+│ │ │ ├── ProductPage.java
+│ │ │ ├── CartPage.java
+│ │ │ └── CheckoutPage.java
+│ │ │
+│ │ ├── test/java/
+│ │ ├── LoginTest.java
+│ │ ├── AddToCartTest.java
+│ │ ├── CheckoutTest.java
+│ │ └── EndToEndTest.java
+│ │
+│ ├── testng.xml
+│ ├── pom.xml
+│ └── README.md
+│
+└── README.md
+```
 
-TestNG
+---
 
-Page Object Model (POM)
+## 🧪 Automated Test Coverage
 
-Maven for dependencies
+This automation suite covers all major Demo Web Shop workflows:
 
-Extent Reports (optional)
+- 🔐 Login  
+- 📄 Product Browsing  
+- ➕ Add to Cart  
+- 🛒 Shopping Cart Validations  
+- 💳 Checkout & Billing  
+- ✔ Order Confirmation  
+- 🚪 Logout  
 
-Automated User Flows Covered:
+Each flow is completely automated using a **TestNG-based modular structure**.
 
-User Registration
+---
 
-Login & Logout
+## ▶️ How to Run Automation Tests
 
-Search Functionality
-
-Add to Cart
-
-Add to Wishlist
-
-Checkout Flow (End-to-End)
-
-Product Sorting & Filtering
-
-Negative Test Cases
+### 1️⃣ Clone the repository  
+```bash
+git clone <https://github.com/Shivshanker869/Hackathon-project>
